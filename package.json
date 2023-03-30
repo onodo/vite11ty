@@ -1,0 +1,56 @@
+{
+  "name": "vite11ty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "rimraf dist && vite build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onodo/vite11ty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onodo/vite11ty/issues"
+  },
+  "homepage": "https://github.com/onodo/vite11ty#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/html": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@whitespace/storybook-addon-html": "^5.1.4",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^8.3.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.1.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-css-order": "^1.3.0",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "react-syntax-highlighter": "^15.5.0",
+    "rimraf": "^4.4.1",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "storybook": "^6.5.16",
+    "style-loader": "^3.3.2",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.1.1",
+    "vite-plugin-eleventy": "^0.3.1"
+  },
+  "dependencies": {}
+}
